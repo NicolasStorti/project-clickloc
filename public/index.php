@@ -1,11 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Projeto</title>
-</head>
-<body>
-<h1>teste</h1>
-</body>
+<?php
 
+use Clickloc\Projeto\Controllers\Controller;
+use Clickloc\Projeto\Controllers\HomeViewController;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+if (!array_key_exists('PATH_INFO', $_SERVER) || $_SERVER['PATH_INFO'] === '/') {
+    if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+        $controller = new HomeViewController();
+    }
+}
+/** @var Controller $controller */
+
+$controller->req();

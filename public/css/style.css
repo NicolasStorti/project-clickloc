@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root {
+    --bg1: #1f1f1f;
+    --bg2: #373737;
+    --body: #c5c5c5;
+    --yellow: #F1E80F;
+    --white: #fff;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--bg1);
+}
+.navbar{
+    background-color: var(--body);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
+}
+.navbar .navbar-nav .nav-link.active{
+    color: var(--yellow);
+}
+.navbar-brand{
+    font-size: 1.8em;
+}
+.navbar-brand img{
+    width: 150px;
+}
+.navbar .nav-link {
+    color: black;
+}
+
+.navbar .nav-link.active {
+    color: var(--yellow);
+}
+
+.navbar .nav-link:hover {
+    color: var(--yellow);
+}
+
+#home {
+    background: linear-gradient(to right, #444444, rgba(0, 50, 50, 0.1), rgba(0, 50, 50, 0)),
+    url(/public/img/Inicio.jpg);
+    min-height: 100vh;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* BTN */
+
+.btn{
+    padding: 16px 35px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0px;
+}
+
+.btn-brand{
+    background-color: var(--yellow);
+    color: var(--bg1);
+}
+.btn-brand:hover{
+    background-color: transparent;
+    color: var(--bg1);
+    border-color: var(--yellow) ;
+}
+
+
+
+.btn-outline-brand{
+    background-color: transparent;
+    color: var(--bg1);
+    border-color: var(--yellow) ;
+}
+.btn-outline-brand:hover{
+    background-color: var(--yellow);
+    color: var(--bg1);
+}
