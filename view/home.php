@@ -15,6 +15,27 @@
     </div>
 </section>
 
+<!-- SOBRE -->
+
+<section id="sobre">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-5">
+                <img src="../public/img/sobre.jpg" alt="">
+            </div>
+
+            <div class="col-lg-4 offset-lg-1">
+                <h6>Sobre</h6>
+                <h1>Sobre ClickLoc</h1>
+                <p>A ClickLoc é uma empresa dedicada a oferecer soluções completas e eficientes para escritórios de todos os portes. Com uma vasta experiência no mercado, nossa missão é facilitar o dia a dia das empresas, fornecendo serviços e produtos que otimizam o funcionamento dos seus ambientes de trabalho.</p>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
 
 
