@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
-    color: var(--body);
+    color: var(--white);
     line-height: 1.8;
     background-color: var(--bg1);
 }
@@ -76,4 +76,8 @@ body{
 .btn-outline-brand:hover{
     background-color: var(--yellow);
     color: var(--bg1);
+}
+section{
+    padding-top: 180px;
+    padding-bottom: 180px;
 }
